@@ -11,6 +11,9 @@
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #ffffff2c;
     backdrop-filter: blur(-10%);
     padding: 20px;
@@ -122,35 +125,37 @@
 }
 
 .PW-Grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;       /* allows boxes to wrap onto new lines */
+    justify-content: center; /* keeps them centered horizontally */
+    gap: 20px;             /* spacing between boxes */
     padding: 20px;
-    align-content: center;
 }
 
+
+
 .PW-Title {
-    color: #ffffff;
+    color: #fffcfc;
     outline: #000000;
     text-align: center;
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.PW-Box{
+.PW-Box {
     background-color: #ffffff2c;
-    backdrop-filter: blur(-10%);
+    backdrop-filter: blur(10px); /* fixed, negative blur isn’t valid */
     padding: 20px;
     font-family: Arial, sans-serif;
-    transform: translate(-2.1%, 1px);
-    margin: -0%;
-    width: 97.5%;
-    position: center;
+    width: 300px;              /* fix the card width */
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
-    opacity: 80%;
+    opacity: 0.8;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* center contents inside the box */
 }
+
 
 .PW-Website-Link-BTN {
     padding: 0.75rem 1.5rem;
@@ -161,14 +166,18 @@
     border: none;
     display: inline-flex;
     align-items: center;
+    text-align: center;
     gap: 0.5rem;
     transition: all 0.3s ease;
-    text-decoration: none;
+    text-decoration: center;
     z-index: 1;
-    
-    
 }
 
+.PW-Website-Link-BTN:hover {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 10 10px 10px rgba(0, 0, 0, 0.1);
+}
 .PW-img {
     width: 100%;
     height: auto;
