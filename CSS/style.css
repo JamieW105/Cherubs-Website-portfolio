@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff1f;
+    background-color: #ffffff0b;
     backdrop-filter: blur(-10%);
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -24,7 +24,7 @@
     margin: -0.%;
     width: 95%;
     position: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.66);
     opacity: 80%;
     border-radius: 10px;
 }
