@@ -47,13 +47,13 @@
     align-items: center;
     transition: all 0.3s ease;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-weight: 500;
     font-size: large;
 }
 
 .header-links:hover {
-    color: #353535;
+    color: #d4d4d4;
     overflow-y: -1px;
 }
 
