@@ -13,6 +13,7 @@
 .header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #ffffff2c;
     backdrop-filter: blur(-10%);
@@ -28,8 +29,9 @@
 }
 
 .header-links-grid {
-    display: table-grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 50%, 50%;
+    display: grid;
+    justify-content: center;
     gap: 10px;
     padding: 0px;
     width: 100%;
@@ -143,6 +145,7 @@
 }
 
 .PW-Box {
+    backdrop-filter: blur(10000px);
     background-color: #ffffff2c;
     backdrop-filter: blur(10px); /* fixed, negative blur isn’t valid */
     padding: 20px;
