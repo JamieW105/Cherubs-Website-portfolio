@@ -167,6 +167,12 @@
     margin-bottom: 10px;
 }
 
+.PW-Box h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: semibold;
+}
+
 .PW-Website-Link-BTN {
     padding: 0.75rem 1.5rem;
     background-color: #ffffffd7;
