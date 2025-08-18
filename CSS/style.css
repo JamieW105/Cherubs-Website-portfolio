@@ -169,9 +169,10 @@
 
 .PW-Box h2 {
     text-align: left;
+    width: 100%;
     display: inline-block;
-    font-size: 20px;
-    font-weight: semibold;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .PW-Website-Link-BTN {
